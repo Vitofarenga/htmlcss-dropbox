@@ -33,16 +33,14 @@ a{
     padding-left: 15px;
     padding-right: 15px;
 }
-#spacer{
-    width: 100%;
-    height: 70px;
-}
+
 /* sezione 1 */
 
 #s1{
     width: 100%;
     height: 600px;
     background-color: #b4d0e7;
+    margin-top: 60px;
 }
 #titolo1{
     width: 800px;
@@ -80,7 +78,7 @@ a{
 #photo{
     position: absolute;
     left: 600px;
-    top:335px;
+    top:330px;
 }
 /* sezione 2 */
 #s2{
@@ -88,7 +86,7 @@ a{
     height: 100px;
     font-size: 30px;
     margin-top: 50px;
-    padding-left: 20%;
+    padding-right:25% ;
     padding-top: 50px;
 }
 /* sezione 3 */
@@ -110,7 +108,7 @@ a{
     margin-bottom: 4px;
 }
 #cerchio2{
-    border: solid #0061ff 5px;
+    border: solid rgb(185, 183, 183) 3px;
     height: 20px;
     width: 20px;
     border-radius:100%;
@@ -333,6 +331,111 @@ h2{
     color: #0061ff;
 }
 /* sezione 10 */
+#sez10{
+    width: 100%;
+}
+#ss10{
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+.sss10{
+    width: calc(100% / 3);
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#puzzle1{
+    height: calc(100% / 2);
+    width: calc(100% / 2);
+    background-color: rgb(148, 191, 156);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#puzzle2{
+    height: calc(100% / 2);
+    width: calc(100% / 2);
+    background-color: rgb(113, 60, 60); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#puzzle3{
+    height: calc(100% / 2);
+    width: calc(100% / 2);
+    background-color: rgb(118, 235, 243);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#puzzle4{
+    height: calc(100% / 2);
+    width: calc(100% / 2);
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#puzzle5{
+    height: calc(100% / 2);
+    width: calc(100% / 2);
+    background-color: rgb(222, 62, 62);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#puzzle6{
+    height: calc(100% / 2);
+    width: calc(100% / 2);
+    background-color: rgb(187, 229, 255); 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+#puzzle7{
+    height: calc(100% / 2);
+    width: calc(100% / 2);
+    background-color: rgb(43, 47, 176);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#puzzle8{
+    height: calc(100% / 2);
+    width: calc(100% / 2);
+    background-color: rgb(228, 234, 48);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lg{
+    width: 130px;
+    filter: invert();
+}
+#logc{
+    width: 200px;
+}
+.center{
+    background-color: rgb(223, 222, 222);
+    padding: 25px;
+    width: calc(100% / 3);
+    height: 100%;
+    display: flex;
+    overflow: scroll;
+    align-items: flex-start;
+    overflow-x:hidden;
+    flex-direction: column;
+}
+#line10{
+    margin-top: 40px;
+    height: 1px;
+    width: 100px;
+    background-color: grey;
+}
+#para10{
+    margin-top: 40px;
+}
 /* sezione 11 */
 #sez11{
     width: 100%;
