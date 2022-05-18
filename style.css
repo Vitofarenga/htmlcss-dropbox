@@ -310,3 +310,53 @@ h2{
     justify-content: flex-start;
     margin-bottom: 60px;
 }
+/* sezione 9 */
+#sez9{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+#ss9{
+    width: 900px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#title9{
+    font-size: 40px;
+}
+#links9{
+    padding-top: 20px;
+    text-decoration: underline;
+    color: #0061ff;
+}
+/* sezione 10 */
+/* sezione 11 */
+#sez11{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(187, 229, 255);
+}
+#ss11{
+    width: 900px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#ps11{
+    font-size: 40px;
+    color: rgb(78, 13, 13);
+}
+#button11{
+    color: black;
+    background-color: white;
+    padding-top:10px ;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
