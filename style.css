@@ -10,7 +10,9 @@
     justify-content: space-between;
     width: 100%;
     height: 70px;
-    border-bottom: solid black 2px;
+    top: 0;
+    background-color: white;
+    z-index: 1;
 }
 .header-list{
     height: 100%;
@@ -24,10 +26,247 @@ a{
     text-decoration: none;
 }
 #accedi{
-    background-color: #0061FF;
+    background-color: #0061ff;
     color:white;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 15px;
     padding-right: 15px;
+}
+#spacer{
+    width: 100%;
+    height: 70px;
+}
+/* sezione 1 */
+
+#s1{
+    width: 100%;
+    height: 600px;
+    background-color: #b4d0e7;
+}
+#titolo1{
+    width: 800px;
+    font-size: 35px;
+    padding-top:50px;
+    display: flex;
+    justify-content: left;
+}
+#g1{
+    width: 800px;
+    padding-left:310px;
+}
+#p-img{
+    width: 800px;
+    margin-top: 50px;
+}
+#paragraph{
+    width: 300px;
+    display: inline-block;
+}
+#im1{
+    width: 700px;
+}
+#push{
+    width: 180px;
+    padding: 5px;
+    margin-top: 30px ;
+    margin-bottom: 30px;
+    background-color: #0061ff;
+}
+#arrow{
+    margin-top: 50px;
+    font-size: 40px;
+}
+#photo{
+    position: absolute;
+    left: 600px;
+    top:335px;
+}
+/* sezione 2 */
+#s2{
+    width: 100%;
+    height: 100px;
+    font-size: 30px;
+    margin-top: 50px;
+    padding-left: 20%;
+    padding-top: 50px;
+}
+/* sezione 3 */
+#s3{
+    width: 100%;
+    height: 100px;
+    margin-top: 40px;
+}
+#cerchio1{
+    border: solid #0061ff 5px;
+    height: 20px;
+    width: 20px;
+    border-radius:100%;
+    margin-left: 300px;
+    display: inline-block;
+}
+#option{
+    display: inline-block;
+    margin-bottom: 4px;
+}
+#cerchio2{
+    border: solid #0061ff 5px;
+    height: 20px;
+    width: 20px;
+    border-radius:100%;
+    margin-left: 50px;
+    display: inline-block;
+}
+/* sezione 4 */
+#s4{
+    width: 100%;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+}
+#grande1{
+    width: 1000px;
+    height: px;
+    margin-right: 40px;
+    display:flex;
+    justify-content: space-evenly;
+}
+.piccolo{
+    width: 250px;
+    border: solid rgb(194, 192, 192) 2px;
+}
+.st{
+    width: 100%;
+    text-align:center;
+    padding: 5px;
+    border-bottom: solid rgb(194, 192, 192) 2px;
+}
+#prof1{
+    width: 100%;
+    padding-left: 25px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+.ptitle{
+    font-size: 25px;
+}
+.pgrey{
+    color: rgb(194, 192, 192);
+}
+.prof2{
+   width: 100%;
+   padding-left: 25px;
+   padding-right: 25px;
+   margin-top: 20px;
+   padding-right: 25px;
+}
+ul{
+    list-style: none;
+}
+li{
+    padding-top: 10px;
+}
+.trial{
+    background-color: #0061ff;
+    padding: 5px;
+    color: white;
+}
+.tasti{
+    padding-left: 25px;
+    margin-top: 20px;
+    line-height: 50px;
+}
+.line{
+    width: 50px;
+    height: 2px;
+    background-color: rgb(194, 192, 192);
+    margin-left: 25px;
+    margin-top: 15px;
+}
+.last{
+    padding-left:25px;
+    margin-top: 20px
+}
+.lastlist{
+    padding-top: 15px;
+    padding-right: 25px;
+}
+/* sezione 5 */
+
+#sez5{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#ss5{
+    width: 900px;
+    height: 270px;
+    border: solid rgb(194, 192, 192) 2px;
+}
+#ltitle{
+   height: 40px;
+   width: 100%;
+   border-bottom: solid rgb(194, 192, 192) 2px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#little2{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-left: 25px;
+}
+#littlep{
+    padding: 5px;
+    background-color: #0061ff;
+    color: white;
+    margin-right: 25px;
+}
+#enterp{
+    font-size: 25px;
+    line-height: 80px;
+}
+#little3{
+    padding-top: 30px;
+    padding-left: 25px;
+}
+#little4{
+    padding-left: 25px;
+    padding-top: 40px;
+    width: 650px;
+}
+/* sezione 6 */
+#sez7{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#im7{
+    width: 600px;
+}
+#sss7{
+    height: 512px;
+    width: 300px;
+    padding-left: 35px;
+    padding-top: 50px;
+}
+#sotto{
+    display: flex;
+}
+#sottot{
+    font-size: 25px;
+}
+#sottot2{
+    padding-top: 20px;
+}
+#bs{
+    margin-top: 30px;
+    border: solid black 2px;
+    padding: 10px;
+    color: black;
 }
